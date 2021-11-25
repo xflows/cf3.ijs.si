@@ -19,7 +19,7 @@ PACKAGE_TREE = [{"name": "Utility", "packages": ['cf_core','cf_scraping'], "orde
                 {"name": "Scikit", "packages": ['cf_data_mining'], "order": 2},
                 {
                     "name": "Text Embeddings",
-                    "packages": ['cf_text_embeddings'],
+                    "packages": ['cf_text_embeddings','cf_embeddia'],
                     "order": 3
                 }
                 ]
