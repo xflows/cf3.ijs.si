@@ -22,6 +22,6 @@ RUN apt-get update && \
 RUN apt-get install -y graphviz
 
 COPY packages /usr/src/app/packages
-RUN pip install -r packages/requirements.txt
+RUN pip install -r packages/requirements.txt --exists-action w
 RUN pip uninstall -y msgpack-python
 RUN pip install msgpack==0.6.2
